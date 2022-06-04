@@ -17,6 +17,4 @@ public class AICar extends Car{
 	public void washCar() {
 		System.out.println("자동 세척합니다.");
 	}
-
-	
 }

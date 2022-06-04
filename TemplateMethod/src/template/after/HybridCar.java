@@ -12,5 +12,4 @@ public class HybridCar extends Car{
 	public void stop() {
 		System.out.println("스스로 멈추거나 사람이 브레이크를 밟습니다.");			
 	}
-
 }

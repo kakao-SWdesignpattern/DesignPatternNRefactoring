@@ -19,6 +19,6 @@ public abstract class Car {
 		drive();
 		stop();
 		turnOff();
-		washCar();
+		washCar();  //hook method
 	}
 }

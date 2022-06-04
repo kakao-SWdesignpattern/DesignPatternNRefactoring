@@ -2,7 +2,6 @@ package template.before;
 
 public class ManualCar {
 
-	
 	public void startCar() {
 		System.out.println("시동을 켭니다.");
 	}
