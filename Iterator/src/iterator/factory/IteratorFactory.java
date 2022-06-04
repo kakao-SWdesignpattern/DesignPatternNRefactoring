@@ -20,7 +20,5 @@ public class IteratorFactory extends Factory{
 			return new ReverseIterator(list);
 		else 
 			return null;
-
 	}
-
 }
