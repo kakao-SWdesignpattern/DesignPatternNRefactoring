@@ -39,7 +39,6 @@ public class LoginFrame extends Frame implements ActionListener, Mediator {
         show();
     }
 	
-    .
     public void createColleagues() {
         // »ý¼º
         CheckboxGroup g = new CheckboxGroup();
