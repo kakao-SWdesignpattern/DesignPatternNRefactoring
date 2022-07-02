@@ -26,8 +26,6 @@ public class Product extends ProductCategory{
 		return id;
 	}
 	
-	
-
 	@Override
 	public void addProduct(ProductCategory product) {
 		
@@ -37,6 +35,5 @@ public class Product extends ProductCategory{
 	public void removeProduct(ProductCategory product) {
 		
 	}
-
 
 }

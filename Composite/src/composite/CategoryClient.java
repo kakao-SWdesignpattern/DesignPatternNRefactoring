@@ -51,7 +51,7 @@ public class CategoryClient {
 		
 		bagCategoryM.addProduct(bag4);
 		bagCategoryM.addProduct(bag5);
-		//bagCategoryM.addProduct(bag6);
+		bagCategoryM.addProduct(bag6);
 		
 		System.out.println(womanCategory.getCount());
 		System.out.println(womanCategory.getPrice());
