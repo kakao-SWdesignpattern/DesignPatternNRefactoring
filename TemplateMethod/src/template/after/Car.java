@@ -3,11 +3,11 @@ package template.after;
 public abstract class Car {
 
 	public void startCar() {
-		System.out.println("½Ãµ¿À» ÄÕ´Ï´Ù.");
+		System.out.println("ì‹œë™ì„ ì¼­ë‹ˆë‹¤.");
 	}
 	
 	public void turnOff() {
-		System.out.println("½Ãµ¿À» ²ü´Ï´Ù.");
+		System.out.println("ì‹œë™ì„ ë•ë‹ˆë‹¤.");
 	}
 	
 	public abstract void drive();

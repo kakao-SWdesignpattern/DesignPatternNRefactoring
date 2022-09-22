@@ -4,21 +4,21 @@ public class BeginnerLevel extends PlayerLevel{
 
 	@Override
 	public void run() {
-		System.out.println("ÃµÃµÈ÷ ´Ş¸³´Ï´Ù.");
+		System.out.println("ì²œì²œíˆ ë‹¬ë¦½ë‹ˆë‹¤.");
 	}
 
 	@Override
 	public void jump() {
-		System.out.println("Jump ÇÒ ÁÙ ¸ğ¸£Áö·Õ.");
+		System.out.println("Jump í•  ì¤„ ëª¨ë¥´ì§€ë¡±.");
 	}
 
 	@Override
 	public void turn() {
-		System.out.println("Turn ÇÒ ÁÙ ¸ğ¸£Áö·Õ.");	
+		System.out.println("Turn í•  ì¤„ ëª¨ë¥´ì§€ë¡±.");	
 	}
 
 	@Override
 	public void showLevelMessage() {
-		System.out.println("***** ÃÊº¸ÀÚ ·¹º§ ÀÔ´Ï´Ù. *****");
+		System.out.println("***** ì´ˆë³´ì ë ˆë²¨ ì…ë‹ˆë‹¤. *****");
 	}
 }

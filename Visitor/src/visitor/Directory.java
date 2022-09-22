@@ -21,14 +21,14 @@ public class Directory extends Entry {
         }
         return size;
     }
-    public Entry add(Entry entry) {         // ¿£Æ®¸®ÀÇ Ãß°¡
+    public Entry add(Entry entry) {         // ì—”íŠ¸ë¦¬ì˜ ì¶”ê°€
         dir.add(entry);
         return this;
     }
-    public Iterator<Entry> iterator() {      // IteratorÀÇ »ı¼º
+    public Iterator<Entry> iterator() {      // Iteratorì˜ ìƒì„±
         return dir.iterator();
     }
-    public void accept(Visitor v) {         // ¹æ¹®ÀÚ¸¦ ¹Ş¾ÆµéÀÓ
+    public void accept(Visitor v) {         // ë°©ë¬¸ìë¥¼ ë°›ì•„ë“¤ì„
         v.visit(this);
     }
 }

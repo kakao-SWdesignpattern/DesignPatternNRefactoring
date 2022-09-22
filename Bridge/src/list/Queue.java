@@ -6,7 +6,7 @@ public class Queue<T> extends List<T> {
 
 	public Queue(AbstractList<T> list) {
 		super(list);
-		System.out.println("Queue¸¦ ±¸ÇöÇÕ´Ï´Ù.");
+		System.out.println("Queueë¥¼ êµ¬í˜„í•©ë‹ˆë‹¤.");
 	}
 	
 	public void enQueue(T obj) {

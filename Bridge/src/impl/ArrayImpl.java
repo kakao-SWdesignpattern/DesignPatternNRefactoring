@@ -7,7 +7,7 @@ public class ArrayImpl<T> implements AbstractList<T> {
 	ArrayList<T> array;
 	public ArrayImpl(){
 		array = new ArrayList<T>();
-		System.out.println("Array·Î ±¸ÇöÇÕ´Ï´Ù.");
+		System.out.println("Arrayë¡œ êµ¬í˜„í•©ë‹ˆë‹¤.");
 		
 	}
 	

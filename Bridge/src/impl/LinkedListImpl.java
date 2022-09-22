@@ -8,7 +8,7 @@ public class LinkedListImpl<T> implements AbstractList<T>{
 	
 	public LinkedListImpl() {
 		linkedList = new LinkedList<T>();
-		System.out.println("LinkedList·Î ±¸ÇöÇÕ´Ï´Ù.");
+		System.out.println("LinkedListë¡œ êµ¬í˜„í•©ë‹ˆë‹¤.");
 	}
 	
 	@Override

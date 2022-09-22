@@ -16,7 +16,7 @@ public class LoginFrame extends Frame implements ActionListener, Mediator {
     private ColleagueButton buttonOk;
     private ColleagueButton buttonCancel;
 
-    // »ı¼ºÀÚ
+    // ìƒì„±ì
     
     public LoginFrame(String title) {
         super(title);
@@ -32,15 +32,15 @@ public class LoginFrame extends Frame implements ActionListener, Mediator {
         add(textPass);
         add(buttonOk);
         add(buttonCancel);
-        // À¯È¿/¹«È¿ÀÇ ÃÊ±âÁöÁ¤
+        // ìœ íš¨/ë¬´íš¨ì˜ ì´ˆê¸°ì§€ì •
         colleagueChanged(checkGuest);
-        // Ç¥½Ã
+        // í‘œì‹œ
         pack();
         show();
     }
 	
     public void createColleagues() {
-        // »ı¼º
+        // ìƒì„±
         CheckboxGroup g = new CheckboxGroup();
         checkGuest = new ColleagueCheckbox("Guest", g, true);
         checkLogin = new ColleagueCheckbox("Login", g, false);

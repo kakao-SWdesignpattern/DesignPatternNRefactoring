@@ -3,19 +3,19 @@ package template.before;
 public class HybridCar {
 	
 	public void startCar() {
-		System.out.println("½Ãµ¿À» ÄÕ´Ï´Ù.");
+		System.out.println("ì‹œë™ì„ ì¼­ë‹ˆë‹¤.");
 	}
 	
 	public void turnOff() {
-		System.out.println("½Ãµ¿À» ²ü´Ï´Ù.");
+		System.out.println("ì‹œë™ì„ ë•ë‹ˆë‹¤.");
 	}
 	
 	public void drive() {
-		System.out.println("»ç¶÷ÀÌ Á¶ÀÛÇÏ°Å³ª ÀÚÀ² ÁÖÇàÀ» ÇÕ´Ï´Ù.");
-		System.out.println("»ç¶÷ÀÌ ÇÚµé·Î ¹æÇâÀ» ¹Ù²Ù°Å³ª ÀÚµ¿À¸·Î ¹Ù²ò´Ï´Ù.");
+		System.out.println("ì‚¬ëŒì´ ì¡°ì‘í•˜ê±°ë‚˜ ììœ¨ ì£¼í–‰ì„ í•©ë‹ˆë‹¤.");
+		System.out.println("ì‚¬ëŒì´ í•¸ë“¤ë¡œ ë°©í–¥ì„ ë°”ê¾¸ê±°ë‚˜ ìë™ìœ¼ë¡œ ë°”ë€ë‹ˆë‹¤.");
 	}
 
 	public void stop() {
-		System.out.println("½º½º·Î ¸ØÃß°Å³ª »ç¶÷ÀÌ ºê·¹ÀÌÅ©¸¦ ¹â½À´Ï´Ù.");		
+		System.out.println("ìŠ¤ìŠ¤ë¡œ ë©ˆì¶”ê±°ë‚˜ ì‚¬ëŒì´ ë¸Œë ˆì´í¬ë¥¼ ë°ŸìŠµë‹ˆë‹¤.");		
 	}
 }

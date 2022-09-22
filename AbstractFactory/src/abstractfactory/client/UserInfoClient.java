@@ -26,7 +26,7 @@ public class UserInfoClient {
 		UserInfo userInfo = new UserInfo();
 		userInfo.setUserId("12345");
 		userInfo.setPasswd("!@#$%");
-		userInfo.setUserName("�̼���");
+		userInfo.setUserName("占싱쇽옙占쏙옙");
 		
 		Product product = new Product();
 		product.setProductId("0011AA");

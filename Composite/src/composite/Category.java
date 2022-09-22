@@ -25,7 +25,7 @@ public class Category extends ProductCategory{
 				return;
 			}
 		}
-		System.out.println("Ä«Å×°í¸®°¡ ¾ø½À´Ï´Ù.");
+		System.out.println("ì¹´í…Œê³ ë¦¬ê°€ ì—†ìŠµë‹ˆë‹¤.");
 	}
 
 	@Override

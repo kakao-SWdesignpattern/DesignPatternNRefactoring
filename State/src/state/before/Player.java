@@ -15,38 +15,38 @@ public class Player {
 	public void jump() {
 		
 		if(level == BEGINNER_LEVEL) {
-			System.out.println("Jump ÇÒ ÁÙ ¸ğ¸£Áö·Õ.");
+			System.out.println("Jump í•  ì¤„ ëª¨ë¥´ì§€ë¡±.");
 		}
 		else if(level == ADVANCED_LEVEL) {
-			System.out.println("³ôÀÌ jump ÇÕ´Ï´Ù.");
+			System.out.println("ë†’ì´ jump í•©ë‹ˆë‹¤.");
 		}
 		else if(level == SUPER_LEVEL) {
-			System.out.println("¾ÆÁÖ ³ôÀÌ jump ÇÕ´Ï´Ù.");
+			System.out.println("ì•„ì£¼ ë†’ì´ jump í•©ë‹ˆë‹¤.");
 		}
 	}
 	
 	public void run() {
 		if(level == BEGINNER_LEVEL) {
-			System.out.println("ÃµÃµÈ÷ ´Ş¸³´Ï´Ù.");
+			System.out.println("ì²œì²œíˆ ë‹¬ë¦½ë‹ˆë‹¤.");
 		}
 		else if(level == ADVANCED_LEVEL) {
-			System.out.println("»¡¸® ´Ş¸³´Ï´Ù.");
+			System.out.println("ë¹¨ë¦¬ ë‹¬ë¦½ë‹ˆë‹¤.");
 		}
 		else if(level == SUPER_LEVEL) {
-			System.out.println("¾öÃ» »¡¸® ´Ş¸³´Ï´Ù.");
+			System.out.println("ì—„ì²­ ë¹¨ë¦¬ ë‹¬ë¦½ë‹ˆë‹¤.");
 		}
 		
 	}
 	
 	public void turn() {
 		if(level == BEGINNER_LEVEL) {
-			System.out.println("Turn ÇÒ ÁÙ ¸ğ¸£Áö·Õ.");
+			System.out.println("Turn í•  ì¤„ ëª¨ë¥´ì§€ë¡±.");
 		}
 		else if(level == ADVANCED_LEVEL) {
-			System.out.println("Turn ÇÒ ÁÙ ¸ğ¸£Áö·Õ.");
+			System.out.println("Turn í•  ì¤„ ëª¨ë¥´ì§€ë¡±.");
 		}
 		else if(level == SUPER_LEVEL) {
-			System.out.println("ÇÑ ¹ÙÄû µ½´Ï´Ù.");	
+			System.out.println("í•œ ë°”í€´ ë•ë‹ˆë‹¤.");	
 		}
 		
 	}

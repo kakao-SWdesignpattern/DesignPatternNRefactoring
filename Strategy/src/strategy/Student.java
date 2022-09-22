@@ -45,8 +45,8 @@ public class Student {
 			else {
 				grade = gradeEvaluation[BASIC].getGrade(score);
 			}
-			System.out.println("ÇĞ»ı " + studentName + "ÀÇ " + s.getName() + " °ú¸ñ ¼ºÀûÀº " + 
-			        s.getScorePoint() + "Á¡ ÀÌ°í, ÇĞÁ¡Àº " + grade +" ÀÔ´Ï´Ù.");
+			System.out.println("í•™ìƒ " + studentName + "ì˜ " + s.getName() + " ê³¼ëª© ì„±ì ì€ " + 
+			        s.getScorePoint() + "ì  ì´ê³ , í•™ì ì€ " + grade +" ì…ë‹ˆë‹¤.");
 		
 		}
 	}

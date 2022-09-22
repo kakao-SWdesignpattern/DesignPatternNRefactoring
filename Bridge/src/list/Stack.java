@@ -6,7 +6,7 @@ public  class Stack<T> extends List<T> {
 	
 	public Stack(AbstractList<T> list) {
 		super(list);
-		System.out.println("StackÀ» ±¸ÇöÇÕ´Ï´Ù.");
+		System.out.println("Stackì„ êµ¬í˜„í•©ë‹ˆë‹¤.");
 	}
 	
 	public void push(T obj) {
